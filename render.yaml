@@ -3,7 +3,7 @@ services:
     name: pure-apis
     env: static
     buildCommand: null  # No build needed for simple static site
-    staticPublishPath: .
+    staticPublishPath: ./public  # Updated to point to public directory
     headers:
       - path: /*
         name: Cache-Control
